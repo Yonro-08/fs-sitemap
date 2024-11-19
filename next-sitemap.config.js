@@ -2,4 +2,5 @@
 module.exports = {
   siteUrl: process.env.SITE_URL || 'https://fs-sitemap.vercel.app/',
   generateRobotsTxt: true,
+  generateIndexSitemap: false
 }
